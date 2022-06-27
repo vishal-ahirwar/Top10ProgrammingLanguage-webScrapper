@@ -14,3 +14,9 @@ print("Top 10 Programming languages:")
 
 for lang in top_10_programming_lang:
     print(lang.getText())
+
+# print("=============\ntop links :")
+# top_links=html.find_all(name='a')
+# for link in top_links:
+#     print(f"{link.get('class')} :{link.get('href')}")
+
